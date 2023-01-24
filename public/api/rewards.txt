@@ -1,0 +1,153 @@
+[
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",[
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.[
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+    {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    },
+        {
+        "line1": "$400 off",
+        "line2": "helping hands",
+        "imagehelp": "https://raw.githubusercontent.com/shrey714/helping-hands/2a69cdd73223fd1b0b2d604bee60c01429a4e9cb/public/images/helping%20hand.svg"
+    }
+]

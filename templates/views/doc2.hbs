@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en" stylestyle="scroll-behavior:smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#b2caee">
+<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+<meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fhelphandsapp%2F&psig=AOvVaw0SRiTF4oBt0eu15e3ubMN5&ust=1638446794109000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNCsu4zIwvQCFQAAAAAdAAAAABAN">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/utilities.css">
+    <link rel="stylesheet" href="/css/style.css">
+  <title>volunteer</title>
+
+</head>
+
+<body>
+
+<!-- preloader start-->
+<div class="loader">
+    <div class="wrapper">
+        <div class="circle">
+          <div class="yinyang"></div>
+          <div class="yinyang"></div>
+        </div>
+      </div>
+</div>
+<!-- preloader end-->
+
+  <!-- Navbar -->
+<header class="header">
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/" class="nav-link" id="first">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/features/{{userid}}" class="nav-link" id="second">Need Help?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/doc2/{{userid}}" class="nav-link" id="third">volunteer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/reward/{{userid}}" class="nav-link" id="forth">Reward</a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://makeyourchat.c1.biz" class="nav-link" id="third" target="_blank">Feeling Lonely?</a>
+                </li>
+                <li class="nav-item">
+                                        <section>
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox" />
+                                    <div class="slider">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun">
+                                            <circle cx="12" cy="12" r="5"></circle>
+                                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+                                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                        </svg>
+                                    </div>
+                                </label>
+                            </div>
+                        </section>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
+
+  <!-- Head -->
+
+  <section class="docs-head bg-primary py-3">
+
+    <div class="container grid">
+      <div>
+        <h1 class="xl">volunteer</h1>
+      </div>
+      <img src="/images/helping hand.svg" alt="">
+    </div>
+  </section>
+
+  <!-- Sub head -->
+  <section class="features-sub-head bg-light py-3">
+    <div id="you" class="container grid">
+      <div>
+        <h1 class="md">Want to become a Helping Hand for someone?</h1>
+        <p>
+          If you wish to contribute to the society by helping any elderly people you are at the right place. If you are
+          able to help at any of the following locations, you are welcome. Let's become a Helping Hand to make this
+          society a better world to live.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+   <ul class="tabs separate">
+    <li data-tab-target="#page1" class="active tab">Help Required</li>
+    <li data-tab-target="#page2" class="tab">History</li>
+</ul>
+<div class="content">
+<!-- submitted forms -->
+            <input type="text" id="getuserid" style="display: none;" value={{userid}}>
+
+  <div id="page1" class="hello hello1 active" data-tab-content>
+
+    {{#each userinfo}}
+    <form  id="myForm" method="POST" class="{{_id}} formexist" target="uploader_iframe">
+      <input type="text" class="idofaccepter" name="acceptedby" style="display: none;" value="userid" />       
+      <div class="hello-item">
+        <div class="card">
+          <div class="card-content">
+            <span class="datetime">Reg.Date:{{gettime}}</span>
+            <h3 class="card-header">Name : {{name}}</h3>
+            <h3><a class="locationbtn" href="{{locate}}">Get location : location</a></h3>
+            <h3>Gender : {{gender}}</h3>
+            <h3 style="color: red;">Status : {{status}}</h3>
+            <h3>Contact Number : {{number}}</h3>
+            <h3 class="card-text"> Required Help : {{helptext}}</h3>            
+            <input type="text" name="id" style="display: none;" value={{_id}}>
+            <input type="button"  class="card-btn" value="Accept->">
+    <div class="popup_box">
+      <label>Are you sure that you are going to help this person?</label>
+      <div class="btns">
+        <input type="button" class="btn2" value="no">
+        <input type="button" class="btn1" value="yes">
+      </div>
+    </div>
+    <input type="submit" style="display: none">
+          </div>
+        </div>
+      </div>
+    </form>
+    {{/each}}
+  </div>
+    <iframe id="uploader_iframe" name="uploader_iframe" style="display: none;"></iframe>
+    <input type="text" id="takeid" value="{{userid}}" style="display: none;">
+
+  <div id="page2" class="hello hello2" data-tab-content>
+    {{#each historyuserinfo}}
+    <form id="myForm" class="{{_id}} formexist">
+      <div class="hello-item">
+        <div class="card">
+          <div class="card-content">
+            <span class="datetime">Reg.Date:{{gettime}}</span>
+            <h3 class="card-header">Name : {{name}}</h3>
+            <h3><a class="locationbtn" href="{{locate}}">Get location : location</a></h3>
+            <h3>Gender : {{gender}}</h3>
+            <h3 style="color: red;">Status : {{status}}</h3>
+            <h3>Contact Number : {{number}}</h3>
+            <h3 class="card-text"> Required Help : {{helptext}}</h3>  
+          </div>
+        </div>
+      </div>
+    </form>
+    {{/each}}
+  </div>
+
+</div>
+  <!-- Footer -->
+  <footer class="footer bg-dark py-5">
+    <div class="container grid grid-3">
+      <div>
+        <h1>Helping Hand
+        </h1>
+        <p>Copyright &copy; 2021</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/index/{{userid}}">Home</a></li>
+          <li><a href="/features/{{userid}}">Need Help?</a></li>
+          <li><a href="/doc2/{{userid}}">volunteer</a></li>
+          <li><a href="/reward/{{userid}}">rewards</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fas fa-envelope fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/loader.js"></script>
+  <script src="/js/doc2.js"></script>
+  <script src="/js/navbar.js"></script>
+  <script src="/js/darkmode.js"></script>
+</body>
+
+</html>
+
+

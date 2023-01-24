@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" stylestyle="scroll-behavior:smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="theme-color" content="#b2caee">
+<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+<meta property="og:image" content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fhelphandsapp%2F&psig=AOvVaw0SRiTF4oBt0eu15e3ubMN5&ust=1638446794109000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNCsu4zIwvQCFQAAAAAdAAAAABAN">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/utilities.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Helping Hand</title>
+</head>
+
+<body>
+
+<!-- preloader start-->
+<div class="loader">
+    <div class="wrapper">
+        <div class="circle">
+          <div class="yinyang"></div>
+          <div class="yinyang"></div>
+        </div>
+      </div>
+</div>
+<!-- preloader end-->
+
+    <!-- Navbar -->
+<header class="header">
+        <nav class="navbar">
+            {{!-- <a href="#" class="nav-logo">LOGO</a> --}}
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/" class="nav-link" id="first">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/features" class="nav-link" id="second">Need Help?</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/doc2" class="nav-link" id="third">volunteer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/reward" class="nav-link" id="forth">Reward</a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://makeyourchat.c1.biz" class="nav-link" id="third" target="_blank">Feeling Lonely?</a>
+                </li>
+                <li class="nav-item">
+                                        <section>
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox" />
+                                    <div class="slider">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun">
+                                            <circle cx="12" cy="12" r="5"></circle>
+                                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+                                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                        </svg>
+                                    </div>
+                                </label>
+                            </div>
+                        </section>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Helping Hand</h1>
+            </div>
+
+            <div id="form-display" class="showcase-form login-card card">
+
+                <h2>LOGIN FORM</h2>
+
+                <form onsubmit="login()" id="loginform">
+                    <center><small><span id="error" style="color:red"></span></small></center>
+                    <div class="form-control">
+                        <input type="email" class="login-inputs" autocomplete="off" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="password" class="login-inputs" id="password" name="name" placeholder="password" required>
+                    </div>
+                    <a href="#" class="forgot" onclick="forgotpass()">Forgot Password</a>
+                    <center><button type="submit" class="btn btn-secondary">Login</button>
+                        <button onclick="SignUp()" class="btn btn-secondary">SignUp</button>
+                    </center>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center my-1">
+                The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to
+                have it make some difference that you have lived and lived well.
+            </h3>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>100</h3>
+                    <p class="text-secondary">completed</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>987</h3>
+                    <p class="text-secondary">Published</p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>500</h3>
+                    <p class="text-secondary">Accepted</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">ABOUT</h2>
+                <p class="lead my-1">Helping Hand, tries to help elderly people whenever they need help. If you are
+                    looking for help, we will help you find out your Helping Hand.</p>
+
+            </div>
+            <img src="/images/hand.svg" alt="">
+        </div>
+    </section>
+
+    <!-- images -->
+    <section class="languages">
+
+        <div class="container flex">
+            <div class="card">
+
+                <img src="/images/img1.jfif" alt="">
+            </div>
+            <div class="card">
+
+                <img src="/images/img2.jfif" alt="">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Helping Hand
+                </h1>
+                <p>Copyright &copy; 2021</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/features">Need Help?</a></li>
+                    <li><a href="/doc2">volunteer</a></li>
+                    <li><a href="/reward/{{userid}}">rewards</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fas fa-envelope fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+      <script src="/js/loader.js"></script>
+    <script src="/js/firebase.js"></script>
+    <script src="/js/index.js"></script>
+        <script src="/js/navbar.js"></script>
+    <script src="/js/darkmode.js"></script>
+</body>
+
+</html>
